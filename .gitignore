@@ -133,4 +133,8 @@ Desktop.ini
 # Put your environment variables here
 .env.local
 .env.*.local
+<<<<<<< HEAD
 secrets.env
+=======
+secrets.env
+>>>>>>> 1bf26f763ee25049b0d150783c4b62bdaee4685b
