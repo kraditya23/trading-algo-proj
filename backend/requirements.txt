@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+yfinance
+matplotlib
+pandas
+python-multipart
+numpy

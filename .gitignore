@@ -1,0 +1,136 @@
+####################################
+# Python / Flask / Django / FastAPI
+####################################
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Build artifacts
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Database
+*.sqlite3
+*.sqlite3-journal
+
+# Logs
+*.log
+
+# Flask instance folder
+instance/
+.webassets-cache
+
+# Sphinx docs
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# mypy / Ruff / pytype / Pyre
+.mypy_cache/
+.dmypy.json
+.ruff_cache/
+.pyre/
+.pytype/
+
+####################################
+# Dart / Flutter specific
+####################################
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+.idea/         # Flutter creates IDE configs here
+android/.gradle/
+android/.idea/
+ios/.generated/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/.symlinks/
+macos/Flutter/ephemeral/
+web/.dart_tool/
+web/build/
+
+# IntelliJ / VSCode
+*.iml
+*.ipr
+*.iws
+*.swp
+.vscode/
+*.DS_Store
+
+####################################
+# OS / Editor / Misc
+####################################
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Backup files
+*.bak
+*.tmp
+
+####################################
+# Optional - secrets / API keys
+####################################
+# Put your environment variables here
+.env.local
+.env.*.local
+secrets.env
